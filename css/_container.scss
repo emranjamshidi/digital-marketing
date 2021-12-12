@@ -1,0 +1,35 @@
+.container {
+
+    max-width: 2000px;
+    margin: 0 auto;
+
+  @include mq(2200) {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  @include mq(1440) {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  @include mq(1100) {
+    max-width: 1000px;
+  }
+
+  @include mq(992) {
+    max-width: 760px;
+  }
+
+  @include mq(768) {
+    max-width: 576px;
+  }
+
+  @include mq(640) {
+    max-width: 420px;
+  }
+
+  @include mq(425) {
+    max-width: 300px;
+  }
+}
